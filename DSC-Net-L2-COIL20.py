@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('agg')
+
 # Code Authors: Pan Ji,     University of Adelaide,         pan.ji@adelaide.edu.au
 #               Tong Zhang, Australian National University, tong.zhang@anu.edu.au
 # Copyright Reserved!
