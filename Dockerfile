@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu 
+FROM tensorflow/tensorflow:latest-gpu
 
 
 RUN mkdir -p /subspace/
@@ -9,7 +9,7 @@ RUN mkdir -p /subspace/pretrain-model-EYaleB/
 RUN mkdir -p /subspace/pretrain-model-ORL/
 
 
-RUN pip install munkres 
+RUN pip install munkres
 
 COPY ./Data /subspace/Data/
 COPY *.py /subspace/
@@ -20,6 +20,7 @@ COPY ./pretrain-model-ORL/ /subspace/pretrain-model-ORL/
 
 
 WORKDIR /subspace/
-CMD ["sh", "-c", "python DSC-Net-L2-EYaleB.py  && /bin/bash"] 
-
-
+#train
+CMD ["sh", "-c", "python Pre-Train-Conv-AE-EYaleB_chris.py  && /bin/bash"]
+#test
+#CMD ["sh", "-c", "python DSC-Net-L2-EYaleB_chris.py  && /bin/bash"]

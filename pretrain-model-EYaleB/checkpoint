@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-41400-48x42-yaleb.ckpt"
+all_model_checkpoint_paths: "model-37800-48x42-yaleb.ckpt"
+all_model_checkpoint_paths: "model-38700-48x42-yaleb.ckpt"
+all_model_checkpoint_paths: "model-39600-48x42-yaleb.ckpt"
+all_model_checkpoint_paths: "model-40500-48x42-yaleb.ckpt"
+all_model_checkpoint_paths: "model-41400-48x42-yaleb.ckpt"

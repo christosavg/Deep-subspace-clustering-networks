@@ -16,7 +16,7 @@ from munkres import Munkres
 class ConvAE(object):
     def __init__(self, n_input, kernel_size, n_hidden, reg_constant1 = 1.0, re_constant2 = 1.0, batch_size = 200, reg = None, \
                 denoise = False, model_path = None, restore_path = None, \
-                logs_path = '/home/pan/workspace-eclipse/deep-subspace-clustering/models_face/logs'):
+                logs_path = './logs'):
         self.n_input = n_input
         self.kernel_size = kernel_size
         self.n_hidden = n_hidden
